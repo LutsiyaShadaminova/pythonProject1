@@ -7,6 +7,23 @@
 # 5 -> 1 0 1 1 0
 # 2
 #
+
+a = 0 # решка
+b = 1 # орел
+a_count = 0
+b_count = 0
+n = int(input())
+for _ in range(n):
+    num = int(input())
+    if num == a:
+        a_count += 1
+    elif num == 1:
+        b_count += 1
+if a_count < b_count:
+    print(a_count)
+else:
+    print(b_count)
+
 # Задача 12:
 # Петя и Катя – брат и сестра. Петя – студент, а Катя –
 # школьница. Петя помогает Кате по математике. Он задумывает два
@@ -16,7 +33,24 @@
 # 4 4 -> 2 2
 # 5 6 -> 2 3
 #
+#
+# s = int(input())
+# p = int(input())
+# for num1 in range(s - 1):
+#     num2 = s - num1
+#     if num1 * num2 == p:
+#         print(num1, num2)
+#         break
+
 # Задача 14:
 # Требуется вывести все целые степени двойки (т.е. числа
 # вида 2k), не превосходящие числа N.
 # 10 -> 1 2 4 8
+
+
+# n = int(input())
+# num = 1
+# while num < n:
+#     print(num)
+#     num = num * 2
+
