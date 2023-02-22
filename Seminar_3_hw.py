@@ -82,7 +82,7 @@ dic = {1: {'A', 'E', 'I', 'L', 'N', 'O', 'R', 'S', 'T', 'U', 'А', 'В', 'Е', '
 summa = 0
 for letter in text1:
     for key in dic.keys():
-        if letter in dic[key]:
+        if letter in dic[key]: # чз dic[key] обращаемся к значению элемента словаря
             summa += key
             break
 print(summa)
