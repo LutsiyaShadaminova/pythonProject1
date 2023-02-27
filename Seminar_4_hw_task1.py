@@ -12,3 +12,4 @@ n_list = input('Введите числа для 1го множества: ')
 m_list = input('Введите числа для 2го множества: ')
 total_list = sorted(set(n_list + m_list))
 print(total_list)
+
